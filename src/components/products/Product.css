@@ -1,0 +1,19 @@
+.main-container {
+  display: flex;
+}
+
+.left-sidebar {
+  width: 32%;
+}
+
+.main {
+  width: 77%;
+}
+
+
+
+
+.right-sidebar {
+  width: 40%;
+  border-left: 1px solid #00000030;
+}

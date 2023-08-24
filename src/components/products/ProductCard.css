@@ -1,0 +1,79 @@
+.product-card-container {
+  margin: 25px;
+  border-radius: 22px;
+  padding: 20px;
+  border: 1px solid #00000030;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.product-card-container .image-container {
+  display: flex;
+  width: 30%;
+}
+
+.product-card-container .image-container img {
+  width: 100%;
+  border-radius: 10px;
+  height: 140px;
+}
+
+.product-card-container .content {
+  width: 50%;
+  margin: 10px 0px 10px 15px;
+}
+
+.product-card-container .content #title {
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.product-card-container .content #rating {
+  display: flex;
+  align-items: center;
+}
+
+.product-card-container .content #rating .star {
+  color: #ffffff;
+}
+
+.product-card-container .content #rating .yellow {
+  color: #ffc327;
+}
+
+.product-card-container .content #rating .half-yellow {
+  color: #ffc327;
+}
+
+.product-card-container .content #rating #rating-text {
+  margin-left: 6px;
+  font-size: 13px;
+}
+
+.product-card-container .content #description {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.product-card-container .right-container {
+  width: 20%;
+  display: flex;
+}
+
+.product-card-container .right-container .partition-line {
+  height: 90%;
+  width: 1px;
+  background: #00000030;
+  margin: 0px 20px;
+}
+
+.product-card-container .right-container .price-container #price {
+  margin: 5px 0px 2px 0px;
+}
+
+.product-card-container .right-container .price-container #mrp {
+  color: red;
+  text-decoration: line-through;
+  font-size: 15px;
+  
+}

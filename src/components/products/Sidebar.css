@@ -1,0 +1,91 @@
+.left-sidebar {
+  font-family: "Bricolage Grotesque";
+  border-right: 1px solid #00000030;
+}
+
+.left-sidebar .head-text {
+  padding: 14px 0px;
+}
+
+.filter-text {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 25px;
+  font-size: 20px;
+  border-bottom: 1px solid #00000030;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 25px;
+  font-size: 20px;
+  border-bottom: 1px solid #00000030;
+}
+
+.categories ul {
+  list-style: none;
+  font-size: 16px;
+  margin: 0px 0px 15px 0px;
+}
+
+.categories ul li {
+  margin: 4px;
+}
+
+.categories ul li input {
+  margin: 0px 6px;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 25px;
+  font-size: 20px;
+  border-bottom: 1px solid #00000030;
+}
+
+.price-range .range-text{
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.price-range .slider-price-range {
+  margin: 0px 25px 10px 5px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 25px;
+  font-size: 20px;
+  border-bottom: 1px solid #00000030;
+}
+
+.rating .rating-options-container {
+  margin: 0px 0px 15px 0px;
+}
+
+.rating .rating-options-container span {
+  font-size: 15px;
+  margin-left: 6px;
+}
+
+.rating .rating-options-container .rating-option {
+  margin: 4px;
+  display: flex;
+}
+
+.rating .rating-options-container .rating-option input {
+  margin: 0px 6px;
+}
+
+.rating .rating-options-container .rating-option label {
+  display: flex;
+  align-items: center;
+}
+
+.rating .star-icon {
+  color: #ffc327;
+}
